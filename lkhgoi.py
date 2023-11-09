@@ -12,4 +12,4 @@ grid.display()
 sda = Human(canvas)
 sda.display()
 root.mainloop()
-root.mainloop ()
+
