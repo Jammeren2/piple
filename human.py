@@ -7,6 +7,7 @@ class Human() :
     def display(self):
         self.__drawHead()
         self.__drawBody()
+        self.__TEXT()
         
     def __drawHead(self) :
         self.canvas.create_oval(20, 400, 80, 460, width=2)
@@ -21,3 +22,8 @@ class Human() :
         
         self.canvas.create_line(100, 520, 50, 480, width=2)
         self.canvas.create_line(0, 520, 50, 480, width=2)
+
+    def __TEXT(self) : 
+        self.canvas.create_text(50, 370, 
+              text="Боба",
+              justify=CENTER, font="Verdana 14")
