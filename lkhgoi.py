@@ -9,7 +9,20 @@ canvas.pack()
 grid = Grid(canvas)
 grid.display()
 
-sda = Human(canvas)
-sda.display()
-root.mainloop()
+p1 = Human(canvas, 200, 450, 'БОБА')
+p1.display()
 
+p2 = Human(canvas, 0, 450, 'БИБА')
+p2.display()
+
+
+p3 = Human(canvas, 400, 450, 'ДВА')
+p3.display()
+
+p4 = Human(canvas, 600, 450, 'ДРУГА')
+p4.display()
+
+
+
+
+root.mainloop()
